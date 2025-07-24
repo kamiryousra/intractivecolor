@@ -1,0 +1,42 @@
+body {
+  background-image: url(Background.jpg);
+  display: flex;
+  justify-content: center; /* horizontal */
+  align-items: center; /* vertical */
+  height: 100vh; /* full viewport height */
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  background-color: cadetblue;
+  height: 500px;
+  width: 500px;
+  border-radius: 5rem;
+  align-items: center;
+  font-family: 'Bitcount Prop Double', sans-serif;
+}
+.box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+  width: 400px;
+  border-radius: 2rem;
+}
+.box {
+  transition: background-color 0.5s ease;
+}
+#btn {
+  height: 40px;
+  width: 120px;
+  border-radius: 12px;
+}
+#btn:hover {
+    background-color: darkcyan;
+    color: white;
+    cursor: pointer;
+}
+
